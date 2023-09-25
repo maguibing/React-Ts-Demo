@@ -1,3 +1,5 @@
+import { TodoActions } from "../actions"
+
 export type Names = {
   id: number,
   name: string
@@ -10,6 +12,6 @@ type Action = {
 
 const initialState: number = 1
 
-export const base = (state = initialState, action: Action) => {
+export const base = (state = initialState, action: TodoActions) => {
   return state
 }

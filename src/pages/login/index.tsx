@@ -17,6 +17,8 @@ const Login = () => {
     <div className={styles.root}>
       <div className="login">
         Login
+
+        <input type="text" />
       </div>
     </div>
   )

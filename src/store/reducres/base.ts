@@ -5,11 +5,6 @@ export type Names = {
   name: string
 }
 
-type Action = {
-  type: string,
-  payload: any
-}
-
 const initialState: number = 1
 
 export const base = (state = initialState, action: TodoActions) => {
